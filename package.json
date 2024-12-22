@@ -1,0 +1,42 @@
+{
+  "name": "@megaorm/builder",
+  "version": "1.0.0",
+  "description": "This package provides a flexible query builder for MegaORM, designed to simplify the process of constructing and executing SQL queries. With a clean, simple API.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-builder.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "builder",
+    "query-builder",
+    "megaorm",
+    "database",
+    "nodejs",
+    "sql",
+    "orm",
+    "connection",
+    "megaorm-builder",
+    "sql-builder"
+  ],
+  "dependencies": {
+    "@megaorm/driver": "^1.0.0",
+    "@megaorm/errors": "^1.0.0",
+    "@megaorm/pool": "^1.0.1",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/utils": "^1.0.0"
+  }
+}
